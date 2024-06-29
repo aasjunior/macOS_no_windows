@@ -29,7 +29,7 @@ Configuração e execução do macOS pelo WSL para criação de um ambiente de d
     <img width='500' src='imgs/1.1.ativar_wsl.png'/>
 </div>
 
-<span style="display:block; height:0.5em;"></span>
+<br>
 
 ## 2. Instalar o Ubuntu no WSL
 
@@ -63,7 +63,7 @@ sudo apt update
 sudo apt upgrade
 ```
 
-<span style="display:block; height:0.5em;"></span>
+<br>
 
 ## 3. Instalação de programas necessários para integração do macOS com o windows
 
@@ -96,7 +96,7 @@ kvm-ok
 
 **Obs.:** Deve aparecer a mensagem `KVM acceleration can be used`. Se não aparecer, necessário executar os passos anteriores novamente 🫤🤷‍♂️.
 
-<span style="display:block; height:0.5em;"></span>
+<br>
 
 ## 4. Criação e Configuração do .wslconfig
 
@@ -121,7 +121,7 @@ Ex: C:/Users/<UserName>
 nestedVirtualization=true
 ```
 
-<span style="display:block; height:0.5em;"></span>
+<br>
 
 ## 5. Docker
 
@@ -149,7 +149,7 @@ nestedVirtualization=true
     <img width='800' src='imgs/5.4.docker.png'/>
 </div>
 
-<span style="display:block; height:0.5em;"></span>
+<br>
 
 ## 6. Baixar macOS Ventura
 
@@ -196,9 +196,6 @@ docker run -it \
 <br>
 
 ## ...
-
-
-<br>
 
 ##### Referências
 
